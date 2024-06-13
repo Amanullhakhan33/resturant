@@ -1,0 +1,86 @@
+section{
+    height: 500px;
+    width: 400px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 100px;
+    box-shadow: 0 0 10px white;
+    color: white;
+    text-shadow: 0 0 10px black;
+    transition-property: all;
+    transition-duration: 0.5s;
+    
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("magenta_explorer-wallpaper-3840x2160.jpg");
+    background-size: 100vw 100vh
+}
+.input{
+    position: relative;
+    top: 20px;
+    left: 40px;
+    text-decoration: solid;
+
+}
+#usname{
+    border: 0px;
+    position: relative;
+    top: 50px;
+    left: -40px;
+    border-radius: 10px;
+    width: 320px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.passw{
+    position: relative;
+    left: 40px;
+    top: 60px;
+}
+#pass{
+    border: 0px;
+    position: relative;
+    border-radius: 10px;
+    top: 100px;
+    left: -32px;
+    width: 320px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+section:hover{
+    color: black;
+    box-shadow: 0 0 10px black;
+    text-shadow: 0 0 10px white;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#loginbtn{
+    height: 50px;
+    width: 150px;
+    position: relative;
+    border-radius: 25px;
+    border: 0px;
+    top: 150px;
+    left: 120px;
+    font-weight: bolder;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#loginbtn:hover{
+    transform: scale(1.1);
+
+}
+

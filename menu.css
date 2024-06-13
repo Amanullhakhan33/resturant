@@ -1,0 +1,513 @@
+body{
+    background-image: url("magenta_explorer-wallpaper-3840x2160.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px black;
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 6;
+}
+
+
+nav ol{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding:30px;
+}
+h1{
+    text-align: center;
+    text-shadow: 0 0 5px white;
+    color:rgba(255, 255, 255, 0.6);
+    padding-top: 20px;
+    padding-bottom: 0px;
+    z-index: 8;
+    font-size: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color:grey;
+}
+nav a:hover{
+    color: aliceblue;
+    text-shadow: 0 0 10px white;
+}
+
+#offer{
+    background-image: url("blackbg.jpg");
+    background-size: cover;
+    position:relative;
+    top:20px;
+    height: 80vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.3);
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    box-shadow: 0 0 20px whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top center;
+    z-index: 1;
+}
+
+#offer .parent{
+    
+    position: relative;
+    top:50px;
+    height: 500px;
+    width: 400px;
+    /*border: 2px solid white;*/
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 20px black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: -2;
+}
+
+#offer .child{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    /*border: 2px solid rgb(255, 248, 248);*/
+    /*background-color: rgba(244, 252, 252, 0.3);*/
+    background-image: url("combo.jpg");
+    background-size:cover;
+    background-position: -60px;
+    box-shadow: 0 0 20px white;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+}
+#offer .child2{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    /*border: 2px solid rgb(255, 248, 248);*/
+    /*background-color: rgba(244, 252, 252, 0.3);*/
+    background-image: url("combo2.jpg");
+    background-size: 400px 400px ;
+
+    box-shadow: 0 0 20px white;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+}
+#offer .child3{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    /*border: 2px solid rgb(255, 248, 248);*/
+    /*background-color: rgba(244, 252, 252, 0.3);*/
+    background-image: url("combo3.webp");
+    background-size:cover;
+    
+    box-shadow: 0 0 20px white;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+}
+#offer .child4{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    /*border: 2px solid rgb(255, 248, 248);*/
+    /*background-color: rgba(244, 252, 252, 0.3);*/
+    background-image: url("combo4.jpg");
+    background-size:cover;
+    background-size: 400px 400px;
+    box-shadow: 0 0 20px white;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+}
+#hamburger{
+    background-image: url("blackbg2.webp");
+    position: relative;
+    background-size: cover;
+    top: 20px;
+    height: 100vh;
+    width: 100vw;
+    box-shadow: 0 0 10px whitesmoke;
+    /*border: 2px solid black;*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1;
+}
+
+#hamburger .parent1{
+    position: relative;
+    top: 20px;
+    height: 500px;
+    width: 400px;
+    /*border: 2px solid white;*/
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: -2;
+}
+
+#hamburger .child1{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    /*border: 2px solid rgb(255, 248, 248);*/
+    background-image: url("Banh-Mi-Burger.jpg");
+    background-size: cover;
+    box-shadow: 0 0 20px white;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+
+    
+    
+}
+#offer .child:hover ,#offer .child2:hover ,#offer .child3:hover ,#offer .child4:hover{
+    transform: scale(0.7);
+
+}
+
+#hamburger .child1:hover ,#hamburger .child2:hover ,#hamburger .child3:hover ,#hamburger .child4:hover{
+    transform: scale(0.7);
+
+}
+
+#pizza .child2:hover ,#pizza .child3:hover ,#pizza .child4:hover ,#pizza .child5:hover{
+    transform: scale(0.7);
+
+}
+
+#fries .child1:hover ,#fries .child2:hover ,#fries .child3:hover ,#fries .child4:hover{
+    transform: scale(0.7);
+
+}
+
+#drinks .childd1:hover ,#drinks .childd2:hover ,#drinks .childd3:hover ,#drinks .childd4:hover{
+    transform: scale(0.7);
+    visibility: visible;
+
+}
+
+pre:hover{
+    visibility: visible;
+
+}
+
+#hamburger .child2{
+    height: 400px;
+    width: 350px;
+    position: relative;
+   /* border: 2px solid rgb(255, 248, 248);*/
+    background-image: url("Beyond-Burger.jpg");
+    box-shadow: 0 0 20px white;
+    background-size: cover;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#hamburger .child3{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    /*border: 2px solid rgb(255, 248, 248);*/
+    background-image: url("Black-Bean-Burgers.jpg");
+    box-shadow: 0 0 20px white;
+    background-size: cover;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+    
+}
+
+#hamburger .child4{
+    height: 400px;
+    width: 350px;
+    position: relative;
+   /* border: 2px solid rgb(255, 248, 248);*/
+    background-image: url("Falafel-Burger.jpg");
+    box-shadow: 0 0 20px white;
+    background-size: cover;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+    
+}
+
+
+#pizza{
+    background-image: url("blackbg2.webp");
+    position: relative;
+    top: 20px;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1;
+}
+
+#pizza .parent2{
+    position: relative;
+    top: 20px;
+    height: 500px;
+    width: 400px;
+    /*border: 2px solid white;*/
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: -2;
+}
+
+#pizza .child2{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    border: 2px solid rgb(255, 248, 248);
+    background-color: rgba(192, 235, 235,0.3);
+    background-image: url("Pizza-Margherita.jpg.webp");
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 20px white;
+    transition: all;
+    transition-duration: 1s;
+
+}
+#pizza .child3{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    border: 2px solid rgb(255, 248, 248);
+    background-color: rgba(192, 235, 235,0.3);
+    background-image: url("Neapolitan-Pizza.jpg.webp");
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 20px white;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#pizza .child4{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    border: 2px solid rgb(255, 248, 248);
+    background-color: rgba(192, 235, 235,0.3);
+    background-image: url("Marinara-Pizza.jpg.webp");
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 20px white;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#pizza .child5{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    border: 2px solid rgb(255, 248, 248);
+    background-color: rgba(192, 235, 235,0.3);
+    background-image: url("Detroit-Pizza.jpg.webp");
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 20px white;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#fries{
+    background-image: url("blackbg2.webp");
+    position: relative;
+    top: 20px;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1;
+}
+
+#fries .parent3{
+    position: relative;
+    top: 20px;
+    height: 500px;
+    width: 400px;
+    z-index: -2;
+    /*border: 2px solid white;*/
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#fries .child1{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    border: 2px solid rgb(255, 248, 248);
+    background-color: rgba(192, 235, 235,0.3);
+    background-image: url("chees\ fries.jpg");
+    background-size: cover;
+    box-shadow: 0 0 20px white;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#fries .child2{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    border: 2px solid rgb(255, 248, 248);
+    background-color: rgba(192, 235, 235,0.3);
+    background-image: url("crinke\ fries.jpg");
+    background-size: cover;
+    box-shadow: 0 0 20px white;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#fries .child3{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    border: 2px solid rgb(255, 248, 248);
+    background-color: rgba(192, 235, 235,0.3);
+    background-image: url("sweet-potato-fries-1689870440.webp");
+    background-size: cover;
+    box-shadow: 0 0 20px white;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#fries .child4{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    border: 2px solid rgb(255, 248, 248);
+    background-color: rgba(192, 235, 235,0.3);
+    background-image: url("fries-truffle.jpg");
+    background-size: cover;
+    box-shadow: 0 0 20px white;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#drinks{
+    background-image: url("blackbg2.webp");
+    position: relative;
+    top: 20px;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1;
+}
+
+#drinks .parent4{
+    position: relative;
+    top: 20px;
+    height: 500px;
+    width: 400px;
+    z-index: -2;
+    border-radius: 20px;
+  /*  border: 2px solid white;*/
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#drinks .childd1{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    border: 2px solid rgb(255, 248, 248);
+    background-color: rgba(192, 235, 235,0.3);
+    background-image: url("cappuccino.jpg");
+    background-size: cover;
+    box-shadow: 0 0 20px white;
+    background-position: -150px;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+
+}
+
+#drinks .childd2{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    border: 2px solid rgb(255, 248, 248);
+    background-color: rgba(192, 235, 235,0.3);
+    background-image: url("affogato.jpg");
+    background-size: cover;
+    background-position: -150px;
+    box-shadow: 0 0 20px white;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#drinks .childd3{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    border: 2px solid rgb(255, 248, 248);
+    background-color: rgba(192, 235, 235,0.3);
+    background-image: url("iced\ latte.jpg");
+    background-size: cover;
+    background-position: -80px;
+    box-shadow: 0 0 20px white;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+}
+#drinks .childd4{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    border: 2px solid rgb(255, 248, 248);
+    background-color: rgba(192, 235, 235,0.3);
+    background-image: url("iced.jpg");
+    background-size: cover;
+    background-position: -150px;
+    box-shadow: 0 0 20px white;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.name{
+    position: absolute;
+    color: white ;  
+    top: 350px;
+    z-index:-1;
+}
+
